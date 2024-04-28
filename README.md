@@ -31,9 +31,9 @@ python main.py
 A interface gráfica será exibida, onde você pode escolher a funcionalidade desejada clicando nos botões correspondentes.
 
 ## Autor
-Alexsander Stahnke
-Email: quach.vrc@gmail.com
-GitHub: QuachRTX
+- Alexsander Stahnke
+- Email: quach.vrc@gmail.com
+- GitHub: QuachRTX
 ## Licença
 Este projeto está licenciado - veja o arquivo LICENSE.md para detalhes.
 
