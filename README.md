@@ -1,6 +1,6 @@
 # E-Commerce Assistant
 ## Descrição
-O E-Commerce Assistant é uma ferramenta desenvolvida para auxiliar na gestão de operações de e-commerce. Com uma interface amigável, o aplicativo permite realizar várias funções críticas relacionadas à gestão de produtos em uma plataforma de e-commerce.
+O E-Commerce Assistant é uma ferramenta desenvolvida para auxiliar na gestão de operações de e-commerce. Com uma interface amigável, o aplicativo permite realizar várias automações relacionadas à gestão de produtos em uma plataforma de e-commerce.
 
 ## Versão
 - Versão Atual: 1.5 Beta
