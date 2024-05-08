@@ -31,7 +31,10 @@ def processar_diretorio(diretorio_loja, nome_arquivo):
     filtro = (df['QTDE REPOR'] == 0) & \
              (df['Reserva'] == 0) & \
              (df['Disponivel'] == 0) & \
-             (df['Dias no estoque (venda)'] >= 60)
+             (df['Dias no estoque (venda)'] >= 60) & \
+             (df['Reposições Pendentes'] == 0) & \
+             (df['STATUS PRODUTO'] == 'FORA DE LINHA')
+ 
     df_filtrado = df[filtro]
 
     # Selecionar colunas
