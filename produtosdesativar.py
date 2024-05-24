@@ -60,6 +60,7 @@ def processar_diretorio(diretorio_loja, nome_arquivo):
         os.remove(caminho_temporario)
 
 def main():
+    user_name = os.getlogin()  # Obtém o nome de usuário do sistema
     root = ctk.CTk()
     root.title("Produtos Desativar")
     root.geometry("500x400")
@@ -68,10 +69,10 @@ def main():
     instrucao_label = ctk.CTkLabel(master=root, text="Selecione a loja para listar os produtos sem estoque/reposição", height=10)
     instrucao_label.pack(pady=40)
 
-    btn_loja1 = ctk.CTkButton(master=root, text="Loja Grendene", command=lambda: processar_diretorio(r'C:\Users\Quach\Desktop\Desativações', 'ESTOQUE_GIRO DIV 01.xlsm'), fg_color="#FFFF00", text_color='gray', width=150, height=50, font=bold_font)
+    btn_loja1 = ctk.CTkButton(master=root, text="Loja Grendene", command=lambda: processar_diretorio(f'C:\\Users\\{user_name}\\OneDrive - grendene.com.br\\COMPRAS\\ESTOQUE_GIRO', 'ESTOQUE_GIRO DIV 01.xlsm'), fg_color="#FFFF00", text_color='gray', width=150, height=50, font=bold_font)
     btn_loja1.pack(pady=20)
 
-    btn_loja2 = ctk.CTkButton(master=root, text="Melissa", command=lambda: processar_diretorio(r'C:\Users\Quach\Desktop\Desativações', 'ESTOQUE_GIRO Melissa.xlsm'), fg_color="#EF007E", text_color='white', width=150, height=50, font=bold_font)
+    btn_loja2 = ctk.CTkButton(master=root, text="Melissa", command=lambda: processar_diretorio(f'C:\\Users\\{user_name}\\OneDrive - grendene.com.br\\COMPRAS\\ESTOQUE_GIRO', 'ESTOQUE_GIRO Melissa.xlsm'), fg_color="#EF007E", text_color='white', width=150, height=50, font=bold_font)
     btn_loja2.pack(pady=20)
 
     root.mainloop()
