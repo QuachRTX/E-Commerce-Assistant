@@ -1,7 +1,7 @@
 __author__ = "Alexsander Stahnke"
 __version__ = "1.1"
 __status__ = "Beta"
-__email__ = "alexsander.stahnke@grendene.com.br"
+__email__ = "quach.vrc@gmail.com"
 __github__ = "https://github.com/QuachRTX"
 
 from tkinter import filedialog, messagebox
@@ -69,11 +69,6 @@ def main():
     instrucao_label = ctk.CTkLabel(master=root, text="Selecione a loja para listar os produtos sem estoque/reposição", height=10)
     instrucao_label.pack(pady=40)
 
-    btn_loja1 = ctk.CTkButton(master=root, text="Loja Grendene", command=lambda: processar_diretorio(f'C:\\Users\\{user_name}\\OneDrive - grendene.com.br\\COMPRAS\\ESTOQUE_GIRO', 'ESTOQUE_GIRO DIV 01.xlsm'), fg_color="#FFFF00", text_color='gray', width=150, height=50, font=bold_font)
-    btn_loja1.pack(pady=20)
-
-    btn_loja2 = ctk.CTkButton(master=root, text="Melissa", command=lambda: processar_diretorio(f'C:\\Users\\{user_name}\\OneDrive - grendene.com.br\\COMPRAS\\ESTOQUE_GIRO', 'ESTOQUE_GIRO Melissa.xlsm'), fg_color="#EF007E", text_color='white', width=150, height=50, font=bold_font)
-    btn_loja2.pack(pady=20)
 
     root.mainloop()
 
