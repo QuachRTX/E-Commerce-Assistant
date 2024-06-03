@@ -1,7 +1,7 @@
 __author__ = "Alexsander Stahnke"
 __version__ = "1.1"
 __status__ = "Development"
-__email__ = "alexsander.stahnke@grendene.com.br"
+__email__ = "quach.vrc@gmail.com"
 __github__ = "https://github.com/QuachRTX"
 
 import pandas as pd
